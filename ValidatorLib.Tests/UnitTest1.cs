@@ -12,7 +12,7 @@ namespace ValidatorLib.Tests
 		[ClassInitialize]
 		public static void TestSetUp(TestContext testContext)
 		{
-			Directory.CreateDirectory(Path.GetFullPath(Logger.Path));
+			Directory.CreateDirectory(Path.GetDirectoryName(Logger.Path));
 			//if file exist, delete content
 			File.WriteAllText(Logger.Path, string.Empty);
 		}

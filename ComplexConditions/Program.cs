@@ -7,8 +7,6 @@ namespace ComplexConditions
 	{
 		static void Main(string[] args)
 		{
-			var ipAddress = new System.Net.IPAddress();
-			System.Net.IPAddress.TryParse()
 			Console.WriteLine("Hello World!");
 		}
 	}
@@ -43,7 +41,7 @@ namespace ComplexConditions
 
 		private static bool IsAdmin(System.Security.Principal.GenericIdentity user)
 		{
-			return user.Contains("administrator");
+			return true;
 		}
 
 		private static bool IsPermitted(System.Security.Principal.GenericIdentity user, System.IO.FileInfo file)

@@ -40,7 +40,6 @@ namespace Classes
 
 		public void FirstBusinessMethod()
 		{
-			Data.
 		}
 
 		public void SecondBusinessMethod()

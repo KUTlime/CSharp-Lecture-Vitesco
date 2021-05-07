@@ -43,6 +43,8 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidatorLib", "ValidatorLi
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ValidatorLib.Tests", "ValidatorLib.Tests\ValidatorLib.Tests.csproj", "{9B71C37A-A91E-44AD-B9EA-73C450A33360}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RefactoringRate.Tests", "RefactoringRate.Tests\RefactoringRate.Tests.csproj", "{B6DBFCD0-E20A-43AD-9C67-17B2BB7DE162}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -117,6 +119,10 @@ Global
 		{9B71C37A-A91E-44AD-B9EA-73C450A33360}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9B71C37A-A91E-44AD-B9EA-73C450A33360}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9B71C37A-A91E-44AD-B9EA-73C450A33360}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B6DBFCD0-E20A-43AD-9C67-17B2BB7DE162}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B6DBFCD0-E20A-43AD-9C67-17B2BB7DE162}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B6DBFCD0-E20A-43AD-9C67-17B2BB7DE162}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B6DBFCD0-E20A-43AD-9C67-17B2BB7DE162}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -130,6 +136,7 @@ Global
 		{852DC106-6237-4436-A9EF-AA9A3143C8A3} = {3689D277-3D63-48E4-8E1C-917FFBA7E26A}
 		{06BA245D-F7B8-42C8-9E84-B4DCC57B4693} = {3689D277-3D63-48E4-8E1C-917FFBA7E26A}
 		{9B71C37A-A91E-44AD-B9EA-73C450A33360} = {3689D277-3D63-48E4-8E1C-917FFBA7E26A}
+		{B6DBFCD0-E20A-43AD-9C67-17B2BB7DE162} = {3689D277-3D63-48E4-8E1C-917FFBA7E26A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F80732FD-E1D7-4640-8D8E-C27A03AD3ABF}

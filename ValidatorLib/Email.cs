@@ -1,6 +1,4 @@
-﻿using System;
-
-namespace ValidatorLib
+﻿namespace ValidatorLib
 {
 	public static class Email
 	{
@@ -20,7 +18,7 @@ namespace ValidatorLib
 		/// <returns>True/false value for input string.</returns>
 		public static bool Validate(string input)
 		{
-			throw new NotImplementedException();
+			return false;
 		}
 	}
 }
